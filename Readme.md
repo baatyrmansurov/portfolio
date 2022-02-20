@@ -1,1 +1,3 @@
-# This is my portfolio
+# Deployed Link
+
+https://baatyrmansurov.github.io/portfolio/
