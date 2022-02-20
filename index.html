@@ -5,23 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my sait</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <h2>Про меня</h2>
-        <ul>
-          <li><a href="#Contacts">КОНТАКТЫ</a></li>
-          <li><a href="#scills">НАВЫКИ</a></li>
-          <li><a href="#CODE">ПРИМЕР КОДА</a></li>
-          <li><a href="#languages">ЯЗЫКИ</a></li>
-          <li><a href="#education">ОБРОЗАВАНИЯ</a></li>
-        </ul>
+    <header class="header">
+      <nav class="header-nav">
+        <div class="container">
+          <a class="header-logo" href="#pro-mene">ПРО МЕНЯ</a>
+
+          <ul class="main">
+            <li class="main-item">
+              <a class="main-link" href="#Contacts">КОНТАКТЫ</a>
+            </li>
+            <li class="main-item">
+              <a class="main-link" href="#scills">НАВЫКИ</a>
+            </li>
+            <li class="main-item">
+              <a class="main-link" href="#CODE">ПРИМЕР КОДА</a>
+            </li>
+            <li class="main-item">
+              <a class="main-link" href="#languages">ЯЗЫКИ</a>
+            </li>
+            <li class="main-item">
+              <a class="main-link" href="#education">ОБРОЗАВАНИЯ</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <img src="IMG/FOTO.jpg" alt="BAATYR" width="150" />
+    </header>
+    <main>
       <section>
-        <h1>Жаймабаатыр Мансуров</h1>
-        <h3>Начинающий Веб-Разработчик</h3>
+        <img src="IMG/FOTO.jpg" alt="BAATYR" width="150" />
+        <h2>Жаймабаатыр Мансуров</h2>
+        <h3 id="pro-mene">Начинающий Веб-Разработчик</h3>
         <p>
           Целеустремленый хочу развиватся в этом области. B работе мне помогают
           быстро обучаемость,ориентация на резултат,высокая работоспособность,
@@ -29,6 +45,7 @@
         </p>
       </section>
       <section id="Contacts">
+        <h1 class="helo">hello</h1>
         <h2>Контaкты</h2>
         <ul>
           <li>
@@ -41,8 +58,6 @@
           </li>
         </ul>
       </section>
-    </header>
-    <main>
       <section id="scills">
         <h2>Навыки</h2>
         <ol>
@@ -55,9 +70,9 @@
         <h3>Пример кода</h3>
         <pre>
           &lt;ol&gt;
-            &lt;li&gt;лук&lt;/li&gt;
-            &lt;li&gt;&lt;морков &lt;/li&gt;
-            &lt;li&gt;картошка&lt;/li&gt;
+          &lt;li&gt;лук&lt;/li&gt;
+          &lt;li&gt;&lt;морков &lt;/li&gt;
+          &lt;li&gt;картошка&lt;/li&gt;
           &lt;/ol&gt;
           </pre
         >
